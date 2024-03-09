@@ -230,10 +230,9 @@ export default function AddExpense() {
                     label="Expense Category"
                     {...getFieldProps('expenseCategory')}
                   >
-                    <MenuItem value={'Food & drink'}>Food & drink</MenuItem>
+                    <MenuItem value={'Food'}>Food & drink</MenuItem>
                     <MenuItem value={'Shopping'}>Shopping</MenuItem>
                     <MenuItem value={'Entertainment'}>Entertainment</MenuItem>
-                    <MenuItem value={'Home'}>Home</MenuItem>
                     <MenuItem value={'Transportation'}>Transportation</MenuItem>
                     <MenuItem value={'Others'}>Others</MenuItem>
                   </Select>

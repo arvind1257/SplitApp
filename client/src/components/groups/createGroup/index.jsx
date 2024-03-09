@@ -130,6 +130,7 @@ export default function Creategroup() {
                                             )}
                                             MenuProps={MenuProps}
                                         >
+                                            {console.log(emailList)}
                                             {emailList.map((email) => (
                                                 <MenuItem
                                                     key={email}
